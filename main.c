@@ -82,7 +82,7 @@ int main(void) {                                     //nachalo programmi
                 default:
                     printf ("Vvedite poriadkoviy nomer deystvia!\n");} }}       // esli ne vveden nomer znaka deystvia  a kakiye-to drugie simvolie
                     free(A); free(B);
-            if (tip=1)
+            if (tip==1)
                 printf ("Calculator standartnij poschital. otvet: %f", c);                                  // vidacha otveta
             else
                 printf("vectornieye raschetie viepolnenie");
